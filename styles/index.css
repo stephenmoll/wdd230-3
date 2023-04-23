@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+body {
+    font-family: 'Share', cursive;
+}
+
+.top-bit {
+    border-radius: 20px;
+    display: flex;
+    background-color:cornflowerblue;
+    
+    height: 30%;
+    box-shadow: 5px 5px 10px 2px rgba(8, 8, 8, 0.8);
+}
+
+.top-bit p {
+    margin: 0 auto;
+    font-size: 6vw;
+    color: black;
+    margin-top: 30vh;
+}
+
+.profile-img {
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(8, 8, 8, 0.8);
+}
+
+.middle-bit {
+    text-align: center;
+}
+
+.bottom-bit {
+    background-color:cornflowerblue;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(8, 8, 8, 0.8);
+    
+}
+
+.date-box {
+    color: yellow;
+}
