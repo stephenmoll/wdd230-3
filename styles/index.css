@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
 body {
     font-family: 'Share', cursive;
+    width: 100%;
 }
 
 .top-bit {
@@ -21,25 +22,38 @@ body {
 
 .profile-img {
     margin: 0 auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    height: 60vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 40vh;
     border-radius: 20px;
     box-shadow: 5px 5px 10px 2px rgba(8, 8, 8, 0.8);
+}
+
+.portal {
+    text-align: center;
 }
 
 .middle-bit {
     text-align: center;
 }
 
+.footer-info-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 .bottom-bit {
     background-color:cornflowerblue;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px 5px rgba(8, 8, 8, 0.8);
+    box-shadow: 5px 5px 10px 2px rgba(8, 8, 8, 0.8);
     
 }
 
 .date-box {
-    color: yellow;
-}
+    color: rgb(241, 203, 78);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}    
