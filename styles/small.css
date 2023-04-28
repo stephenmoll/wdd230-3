@@ -6,7 +6,7 @@ body {
 
 .top-bit {
     border-radius: 20px;
-    display: flex;
+    display: flex; 
     background-color:cornflowerblue;
     
     height: 30%;
