@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+/*General rules for general elements*/
+body {
+    font-family: Gugi;
+    width: 100%;
+    margin: 0 ;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited { text-decoration: none; color:rgb(0, 0, 0); }
+a:hover { text-decoration: none; color:rgb(255, 255, 255); }
+a:focus { text-decoration: none; color:rgb(255, 255, 255); }
+a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
+
+
+/* Header parts of the html pages */
+header {
+    display: flex;
+    background-color: #6ce5e8;
+    
+    height: 20vh;
+    width: 100%;
+    border-radius: 20px ;
+}
+
+.title {
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 25vw;
+    
+}
+
+
+
+.page-links {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 1%;
+    list-style-type: none;
+    width: 26vw;
+}
+
+
+.icon {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    
+    height: 84%;
+    
+    
+}
+
+
+/*index page specific css*/
+h2 {
+    font-size: 8vh;
+}
+.purpose {
+    width: 50vw;
+    
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    
+    font-size: 5vh;
+    border-radius: 20px ;
+
+    background-color: #22DB7F;
+    padding: 2vw;
+    text-align: center;
+}
+
+
+
+
+
+/*css specifically for target-audience*/
+.persona {
+    background-color:#22DB7F;
+    border-radius: 20px;
+    width: 45vw;
+}
+
+.persona h1 {
+    text-align: center;
+}
+
+.persona-info {
+    margin: 2vh;
+    
+}
+
+.main-TA {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+/*Design page css*/
+.box1 {
+    width: 15vh;
+    height: 10vh;
+    background-color: #6ce5e8;
+}
+.box2 {
+    width: 15vh;
+    height: 10vh;
+    background-color: #22DB7F;
+}
+.box3 {
+    width: 15vh;
+    height: 10vh;
+    background-color: white;
+}
+.box4 {
+    width: 15vh;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+.color-scheme-box {
+    display: flex;
+    margin: 0 auto;
+    width: 66vh;
+    border: black solid 1px;
+    justify-content: space-between;
+}
+
+.design-elements {
+    text-align: center;
+    
+    margin: 0 auto;
+}
+
+.typography {
+    margin-top: 5vh;
+    background-color: #22DB7F;
+    padding: 1vh;
+    border-radius: 20px;
+}
+
+.design-main {
+    align-items: center;
+    text-align: center;
+}
+
+h3 {
+    font-size: 8vh;
+}
+
+
+/*footer css*/
+
+footer {
+    background-color: #6ce5e8;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    border-radius: 20px ;
+}
+
+.footer-info {
+    margin: 0 auto;
+    margin-top: 6vh;
+    color: rgb(14, 150, 59);
+}
+
+.outside-links {
+    margin-top: 6vh;
+}
